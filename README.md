@@ -1,21 +1,21 @@
 # Terrascan-ML-Model
-Register in google earth engine and use the project id in the code
-Create a virtual environment
+1.Register in google earth engine and use the project id in the code
+2.Create a virtual environment
 	python -m venv venv
 	source vent/bin/activate
 	
 
-pip  install ee earthengine-api geemap setuptools tqdm
-Run the fetch AOI script
-Download and install Miniconda
-Create and activate a conda environment
-conda create -n terrascan python=3.10
-conda activate terrascan
-Install GDAL using conda-forge
+3.pip  install ee earthengine-api geemap setuptools tqdm
+4.Run the fetch AOI script
+5.Download and install Miniconda
+6.Create and activate a conda environment
+7.conda create -n terrascan python=3.10
+8.conda activate terrascan
+9.Install GDAL using conda-forge
 	conda install -c conda-forge gdal
-Run the generate lucd dataset script
-Data PreProcessing
-Run split dataset script
-Run normalize and encode script
-Create data loaders according to your model requirements
+10.Run the generate lucd dataset script
+11.Data PreProcessing
+12.Run split dataset script
+13.Run normalize and encode script
+14.Create data loaders according to your model requirements
 
